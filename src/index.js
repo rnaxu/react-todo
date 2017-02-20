@@ -1,7 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom'
+import Todo from './components/Todo'
 
-ReactDOM.render(
-  <h1>Hello, world!</h1>,
+render(
+  <Todo />,
   document.getElementById('app')
-);
+)
